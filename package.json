@@ -7,16 +7,16 @@
     "start": "node bot.js"
   },
   "author": "Khoa",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^11.3.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khoatdk007/conan-bot.git"
+    "url": "git+https://github.com/khoatdk007/conan-bot-dnh.git"
   },
   "bugs": {
-    "url": "https://github.com/khoatdk007/conan-bot/issues"
+    "url": "https://github.com/khoatdk007/conan-bot-dnh/issues"
   },
-  "homepage": "https://github.com/khoatdk007/conan-bot#readme"
+  "homepage": "https://github.com/khoatdk007/conan-bot-dnh#readme"
 }
