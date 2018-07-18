@@ -1,0 +1,22 @@
+{
+  "name": "conan-bot",
+  "version": "0.0.1",
+  "description": "Test my bot",
+  "main": "bot.js",
+  "script": {
+    "start": "node bot.js"
+  },
+  "author": "Khoa",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khoatdk007/conan-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khoatdk007/conan-bot/issues"
+  },
+  "homepage": "https://github.com/khoatdk007/conan-bot#readme"
+}
