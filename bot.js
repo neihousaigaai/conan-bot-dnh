@@ -52,6 +52,15 @@ bot.on("message", async message => {
             return;
         }
     }
+    if ((args.length===0)&&(tmsg2.includes(' dm ')) {
+        let ntfct = new Discord.RichEmbed()
+            .setColor("#ff463d")
+            .setDescription(`Đề nghị các mod xử lí thành viên <@${message.author.id}> vì lý do nói tục !!`)
+            .addField("Bằng chứng : ", `<@${message.author.id}> đã nói : "${message.content}"`)
+            .addField("Thời gian : ", `${message.createdAt}`);
+        message.channel.sendEmbed(ntfct);
+        return;
+    }
     if (tmsg2.includes(' drama '))
         message.channel.sendMessage("Hít hà, hít hà");
     if (!command.startsWith(prefix)) return;
